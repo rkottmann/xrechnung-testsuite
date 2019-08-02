@@ -64,7 +64,10 @@
         <unzip src="${download.dir}/${validator.config.zip}" dest="${validator.repository.dir}" />
     </target>
     
-    <target name="test" depends="prepare-validationtool,prepare-validator-configuration" description="Testsuite validation with Validator XRechnung Configuration">
+    <target name="test"
+        depends="prepare-validationtool,prepare-validator-configuration"
+        description="Testsuite validation with Validator XRechnung
+        Configuration" unless="test.skip">
         <echo>Creating validation reports ...</echo>
         <java jar="${lib.dir}/${validator.jar}" failonerror="yes" fork="yes" dir="${basedir}">
             <arg value="-s" />
@@ -75,7 +78,7 @@
             <arg value="-h" />
             <arg value="-o" />
             <arg value="${reports.dir}" />
-            <arg value="${test.docs.dir}/*.xml" />
+            <arg value="${test.docs.dir}" />
         </java>
     </target>
     
