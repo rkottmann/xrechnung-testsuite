@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ubl:Invoice xmlns:ubl="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
   xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
   xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
@@ -12,10 +11,8 @@
   <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</cbc:CustomizationID>
   <cbc:ID>0815-99-1-a</cbc:ID>
   <cbc:IssueDate>2019-03-26</cbc:IssueDate>
-  
   <cbc:DueDate>2019-03-26</cbc:DueDate>
   <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
-  
   <!-- 
   <cbc:Note>ADU</cbc:Note>
   <cbc:Note>Das ist lediglich eine Testrechnung des SCAG eRechnungs-Testgenerators... </cbc:Note>
@@ -34,14 +31,11 @@
     <cbc:ID />
   </cac:ContractDocumentReference>
   -->
-  
   <cac:ProjectReference>
     <cbc:ID />
   </cac:ProjectReference>
-  
-  
   <cac:AccountingSupplierParty>
-   <!-- <cac:Party>
+    <!-- <cac:Party>
       <cac:PostalAddress>
         <cbc:StreetName>Beispielgasse 17a</cbc:StreetName>
         <cbc:AdditionalStreetName />
@@ -67,10 +61,8 @@
       </cac:Contact>
     </cac:Party>-->
   </cac:AccountingSupplierParty>
-  
-  
   <cac:AccountingCustomerParty>
-<!--    <cac:Party>
+    <!--    <cac:Party>
       <cac:PostalAddress>
         <cbc:StreetName>Beispielgasse 17b</cbc:StreetName>
         <cbc:AdditionalStreetName />
@@ -90,11 +82,8 @@
       </cac:Contact>
     </cac:Party>-->
   </cac:AccountingCustomerParty>
-  
-  
   <cac:PaymentMeans>
     <cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
-    
     <!--<cbc:PaymentID>0815-99-1-a</cbc:PaymentID>
     <cac:PayeeFinancialAccount>
       <cbc:ID>DE12500105170648489890</cbc:ID>
@@ -104,13 +93,10 @@
       </cac:FinancialInstitutionBranch>
     </cac:PayeeFinancialAccount>-->
   </cac:PaymentMeans>
-  
-  
   <!--<cac:PaymentTerms>
     <cbc:Note />
   </cac:PaymentTerms>
   -->
-  
   <!--<cac:TaxTotal>
     <cbc:TaxAmount currencyID="EUR">250.74</cbc:TaxAmount>
     <cac:TaxSubtotal>
@@ -138,24 +124,17 @@
   </cac:TaxTotal>
   -->
   <cac:LegalMonetaryTotal>
-    <cbc:LineExtensionAmount currencyID="EUR"
-      >1445.98</cbc:LineExtensionAmount>
-    
+    <cbc:LineExtensionAmount currencyID="EUR">1445.98</cbc:LineExtensionAmount>
     <cbc:TaxExclusiveAmount currencyID="EUR">1445.98</cbc:TaxExclusiveAmount>
-    
     <cbc:TaxInclusiveAmount currencyID="EUR">1696.72</cbc:TaxInclusiveAmount>
-    
     <cbc:PayableAmount currencyID="EUR">1696.72</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
-  
   <cac:InvoiceLine>
     <cbc:ID>0</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="C62">1</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="EUR"
-      >1245.98</cbc:LineExtensionAmount>
-    
+    <cbc:InvoicedQuantity unitCode="C62">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">1245.98</cbc:LineExtensionAmount>
     <cac:Item>
-    <!--  <cbc:Description>Leimbinder 2x18m; Birke</cbc:Description>
+      <!--  <cbc:Description>Leimbinder 2x18m; Birke</cbc:Description>
       <cbc:Name>Leimbinder</cbc:Name>
       <cac:SellersItemIdentification>
         <cbc:ID>0815</cbc:ID>
@@ -172,8 +151,4 @@
       <cbc:PriceAmount currencyID="EUR">1245.98</cbc:PriceAmount>
     </cac:Price>-->
   </cac:InvoiceLine>
-  
-  
-  
-  </ubl:Invoice>
-
+</ubl:Invoice>
