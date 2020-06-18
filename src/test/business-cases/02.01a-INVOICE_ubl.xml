@@ -3,6 +3,7 @@
   xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
   xmlns:cec="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
   xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<?xmute mutator="identity" schematron-valid="cenubl:BR-DE-17" id="code-measure-untdid4001" description="does not break rule" ?>
   <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</cbc:CustomizationID>
   <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
   <cbc:ID>1234567</cbc:ID>
@@ -224,7 +225,7 @@
       <cac:TaxCategory>
         <cbc:ID>S</cbc:ID>
         <cbc:Percent>19</cbc:Percent>
-        
+
         <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
@@ -236,7 +237,7 @@
       <cac:TaxCategory>
         <cbc:ID>E</cbc:ID>
         <cbc:Percent>0</cbc:Percent>
-<cbc:TaxExemptionReason>a reason</cbc:TaxExemptionReason>
+        <cbc:TaxExemptionReason>a reason</cbc:TaxExemptionReason>
         <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
@@ -245,11 +246,9 @@
   </cac:TaxTotal>
 
 
-
   <cac:TaxTotal>
     <cbc:TaxAmount currencyID="GBP">2048.44</cbc:TaxAmount>
   </cac:TaxTotal>
-
 
 
   <cac:LegalMonetaryTotal>
@@ -262,8 +261,6 @@
     <cbc:PayableRoundingAmount currencyID="EUR">0</cbc:PayableRoundingAmount>
     <cbc:PayableAmount currencyID="EUR">12829.69</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
-
-
 
 
   <cac:InvoiceLine>
