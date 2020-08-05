@@ -106,7 +106,6 @@
             </ram:ShipToTradeParty>
         </ram:ApplicableHeaderTradeDelivery>
         <ram:ApplicableHeaderTradeSettlement>
-            <ram:TaxCurrencyCode>EUR</ram:TaxCurrencyCode>
             <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
             <ram:SpecifiedTradeSettlementPaymentMeans>
                 <ram:TypeCode>58</ram:TypeCode>
