@@ -190,14 +190,14 @@
         <cbc:Name>Ortbetonstützwand Los 15/16 bahnrechts, km 5,910..</cbc:Name>
       </cac:Item>
       <cac:SubInvoiceLine>
-        <cbc:ID>3.1</cbc:ID>     
+        <cbc:ID>3.1.</cbc:ID>     
         <cbc:LineExtensionAmount currencyID="EUR">19715327.10</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Baustelleneinrichtung</cbc:Name>
         </cac:Item>        
         <cac:SubInvoiceLine>
-          <cbc:ID>3.1.10</cbc:ID>
-          <cbc:InvoicedQuantity unitCode="C62">210</cbc:InvoicedQuantity>
+          <cbc:ID>3.1.10.</cbc:ID>
+          <cbc:InvoicedQuantity>210</cbc:InvoicedQuantity>
           <cbc:LineExtensionAmount currencyID="EUR">19715327.10</cbc:LineExtensionAmount>
           <cac:Item>
             <cbc:Name>Baustelle einrichten</cbc:Name>
@@ -209,36 +209,285 @@
         </cac:SubInvoiceLine>
       </cac:SubInvoiceLine>   
       <cac:SubInvoiceLine>
-        <cbc:ID>3.3</cbc:ID>     
+        <cbc:ID>3.3.</cbc:ID>     
         <cbc:LineExtensionAmount currencyID="EUR">42227.17</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Abbruch / Rückbau</cbc:Name>
         </cac:Item>        
         <cac:SubInvoiceLine>
-          <cbc:ID>3.3.70</cbc:ID>
-          <cbc:InvoicedQuantity unitCode="C62">1025.5</cbc:InvoicedQuantity>
+          <cbc:ID>3.3.70.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTR">1025.5</cbc:InvoicedQuantity>
           <cbc:LineExtensionAmount currencyID="EUR">11813.76</cbc:LineExtensionAmount>
           <cac:Item>
             <cbc:Name>Asphalt sägen</cbc:Name>
           </cac:Item>
           <cac:Price>
             <cbc:PriceAmount currencyID="EUR">11.52</cbc:PriceAmount>
-            <cbc:BaseQuantity unitCode="C62">1</cbc:BaseQuantity>
+            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
           </cac:Price>
         </cac:SubInvoiceLine>
         <cac:SubInvoiceLine>
-          <cbc:ID>3.3.80</cbc:ID>
-          <cbc:InvoicedQuantity unitCode="C62">1643.968</cbc:InvoicedQuantity>
+          <cbc:ID>3.3.80.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTK">1643.968</cbc:InvoicedQuantity>
           <cbc:LineExtensionAmount currencyID="EUR">30413.41</cbc:LineExtensionAmount>
           <cac:Item>
             <cbc:Name>Asphaltfläche aufnehmen</cbc:Name>
           </cac:Item>
           <cac:Price>
             <cbc:PriceAmount currencyID="EUR">18.5</cbc:PriceAmount>
-            <cbc:BaseQuantity unitCode="C62">1</cbc:BaseQuantity>
+            <cbc:BaseQuantity unitCode="MTK">1</cbc:BaseQuantity>
           </cac:Price>
         </cac:SubInvoiceLine>
-      </cac:SubInvoiceLine>   
+      </cac:SubInvoiceLine> 
+      <cac:SubInvoiceLine>
+        <cbc:ID>3.4.</cbc:ID>     
+        <cbc:LineExtensionAmount currencyID="EUR">542076.10</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Name>Erdarbeiten</cbc:Name>
+        </cac:Item>        
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.4.10.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTQ">86.561</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">13488.80</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Boden Suchgraben lösen, lagern BK 3/5</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">155.83</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTQ">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.4.20.</cbc:ID>
+          <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">3000</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Aufmaß und Dokumentation</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">3000</cbc:PriceAmount>
+            <cbc:BaseQuantity>1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.4.40.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTQ">1035.278</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">44030.37</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Boden aus Dammböschung abtragen (TE)</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">42.53</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTQ">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.4.60.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTQ">4589.754</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">252436.47</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Boden liefern für Dammböschung, in den Auftragsb.. einbauen</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">55</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTQ">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.4.90.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTQ">80.748</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">5650.75</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Geeigneten Boden für Randweg liefern und profilg..</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">69.98</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTQ">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.4.100.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTQ">416.828</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">24105.16</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Kabel-/ Leitungsgraben herstellen</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">57.83</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTQ">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.4.110.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTQ">1366.486</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">52090.45</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Erdarbeiten für Fundament herstellen</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">38.12</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTQ">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.4.120.</cbc:ID>
+          <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">2032.60</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>*** Bedarfsposition mit GB Bereitstellungsfläche herstellen</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">2032.60</cbc:PriceAmount>
+            <cbc:BaseQuantity>1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.4.130.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="TNE">5081.928</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">82632.15</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Bereitstellen des Aushubmaterials</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">16.26</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTQ">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.4.140.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="TNE">5081.928</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">62609.35</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Entsorgung von Aushubmaterial mit Z0-Qualität ..</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">12.32</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTQ">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+      </cac:SubInvoiceLine>
+      <cac:SubInvoiceLine>
+        <cbc:ID>3.5.</cbc:ID>     
+        <cbc:LineExtensionAmount currencyID="EUR">217257.09</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Name>Steinkorbverkleidung / Betonwand</cbc:Name>
+        </cac:Item>        
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.5.110.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTQ">179.949</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">119815.44</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Beton einschl. Schalung Stützwände C 30/37</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">665.83</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.5.130.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="TNE">54.914</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">83552.75</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Betonstahl einbauen</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">1521.52</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="TNE">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.5.150.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTS">379.827</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">7250.90</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Sauberkeitsschicht d= 10 cm</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">19.09</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTS">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.5.160.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTR">45.500</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">6638.00</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Abschalelement incl. Abschluß-Fugenband</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">145.89</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+      </cac:SubInvoiceLine>
+      <cac:SubInvoiceLine>
+        <cbc:ID>3.6.</cbc:ID>     
+        <cbc:LineExtensionAmount currencyID="EUR">396839.57</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Name>Bohrpfahlgründung, Stahlbau</cbc:Name>
+        </cac:Item>        
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.6.5.</cbc:ID>
+          <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">38362.40</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Geräteeinsatz für Herst. Ortbetonbohrpfähle</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">38362.40</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.6.6.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTR">83.150</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">10491.04</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Leerbohrung</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">126.17</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.6.8.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTR">954.000</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">138120.12</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Ortbetonbohrpfahl herstellen</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">144.78</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.6.9.</cbc:ID>
+          <cbc:InvoicedQuantity>159</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">30162.30</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Ortbeton-Pfahlkopf herrichten</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">189.70</cbc:PriceAmount>
+            <cbc:BaseQuantity>1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.6.90.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="TNE">58.250</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">74984.06</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Betonstahl einbauen Ortbetonbohrpfahl</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">1287.28</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="TNE">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+      </cac:SubInvoiceLine>
     </cac:SubInvoiceLine>
   </cac:InvoiceLine>
 </ubl:Invoice>
