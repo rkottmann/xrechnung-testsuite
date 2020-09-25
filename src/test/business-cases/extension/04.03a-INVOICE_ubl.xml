@@ -489,91 +489,89 @@
         </cac:SubInvoiceLine>
       </cac:SubInvoiceLine>
       <cac:SubInvoiceLine>
-          <cbc:ID>3.6.110.</cbc:ID>
-          <cbc:InvoicedQuantity unitCode="DAY">2.500</cbc:InvoicedQuantity>
-          <cbc:LineExtensionAmount currencyID="EUR">11477.25</cbc:LineExtensionAmount>
-          <cac:Item>
-            <cbc:Name>*** Bedarfsposition mit GB Stillstandskosten Bohrgerät</cbc:Name>
-          </cac:Item>
-          <cac:Price>
-            <cbc:PriceAmount currencyID="EUR">4590.90</cbc:PriceAmount>
-            <cbc:BaseQuantity unitCode="DAY">1</cbc:BaseQuantity>
-          </cac:Price>
-        </cac:SubInvoiceLine>
+        <cbc:ID>3.6.110.</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="DAY">2.500</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">11477.25</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Name>*** Bedarfsposition mit GB Stillstandskosten Bohrgerät</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">4590.90</cbc:PriceAmount>
+          <cbc:BaseQuantity unitCode="DAY">1</cbc:BaseQuantity>
+        </cac:Price>
       </cac:SubInvoiceLine>
       <cac:SubInvoiceLine>
-          <cbc:ID>3.6.140.</cbc:ID>
-          <cbc:InvoicedQuantity unitCode="MTR">286.050</cbc:InvoicedQuantity>
-          <cbc:LineExtensionAmount currencyID="EUR">69770.46</cbc:LineExtensionAmount>
-          <cac:Item>
-            <cbc:Name>Geschweißtes Stahlgeländer</cbc:Name>
-          </cac:Item>
-          <cac:Price>
-            <cbc:PriceAmount currencyID="EUR">243.91</cbc:PriceAmount>
-            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
-          </cac:Price>
-        </cac:SubInvoiceLine>
-        <cac:SubInvoiceLine>
-          <cbc:ID>3.6.160.</cbc:ID>
-          <cbc:InvoicedQuantity>148</cbc:InvoicedQuantity>
-          <cbc:LineExtensionAmount currencyID="EUR">5014.24</cbc:LineExtensionAmount>
-          <cac:Item>
-            <cbc:Name>Geländer-Verankerung an Kopfbalken herstellen</cbc:Name>
-          </cac:Item>
-          <cac:Price>
-            <cbc:PriceAmount currencyID="EUR">33.88</cbc:PriceAmount>
-            <cbc:BaseQuantity>1</cbc:BaseQuantity>
-          </cac:Price>
-        </cac:SubInvoiceLine>
-        <cac:SubInvoiceLine>
-          <cbc:ID>3.6.170.</cbc:ID>
-          <cbc:InvoicedQuantity>112</cbc:InvoicedQuantity>
-          <cbc:LineExtensionAmount currencyID="EUR">6829.76</cbc:LineExtensionAmount>
-          <cac:Item>
-            <cbc:Name>Erdungslasche für Geländer</cbc:Name>
-          </cac:Item>
-          <cac:Price>
-            <cbc:PriceAmount currencyID="EUR">60.98</cbc:PriceAmount>
-            <cbc:BaseQuantity>1</cbc:BaseQuantity>
-          </cac:Price>
-        </cac:SubInvoiceLine>
-        <cac:SubInvoiceLine>
-          <cbc:ID>3.6.190.</cbc:ID>
-          <cbc:InvoicedQuantity unitCode="MTR">286.05</cbc:InvoicedQuantity>
-          <cbc:LineExtensionAmount currencyID="EUR">3875.98</cbc:LineExtensionAmount>
-          <cac:Item>
-            <cbc:Name>Oberfläche mit metallischem Überzug versehen.</cbc:Name>
-          </cac:Item>
-          <cac:Price>
-            <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
-            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
-          </cac:Price>
-        </cac:SubInvoiceLine>
-        <cac:SubInvoiceLine>
-          <cbc:ID>3.6.200.</cbc:ID>
-          <cbc:InvoicedQuantity unitCode="MTR">286.05</cbc:InvoicedQuantity>
-          <cbc:LineExtensionAmount currencyID="EUR">3875.98</cbc:LineExtensionAmount>
-          <cac:Item>
-            <cbc:Name>Oberfläche zwischenbeschichten.</cbc:Name>
-          </cac:Item>
-          <cac:Price>
-            <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
-            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
-          </cac:Price>
-        </cac:SubInvoiceLine>
-        <cac:SubInvoiceLine>
-          <cbc:ID>3.6.200.</cbc:ID>
-          <cbc:InvoicedQuantity unitCode="MTR">286.05</cbc:InvoicedQuantity>
-          <cbc:LineExtensionAmount currencyID="EUR">3875.98</cbc:LineExtensionAmount>
-          <cac:Item>
-            <cbc:Name>Oberfläche deckbeschichten, Farbton nach Angaben..</cbc:Name>
-          </cac:Item>
-          <cac:Price>
-            <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
-            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
-          </cac:Price>
-        </cac:SubInvoiceLine>
+        <cbc:ID>3.6.140.</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="MTR">286.050</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">69770.46</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Name>Geschweißtes Stahlgeländer</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">243.91</cbc:PriceAmount>
+          <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+        </cac:Price>
       </cac:SubInvoiceLine>
+      <cac:SubInvoiceLine>
+        <cbc:ID>3.6.160.</cbc:ID>
+        <cbc:InvoicedQuantity>148</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">5014.24</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Name>Geländer-Verankerung an Kopfbalken herstellen</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">33.88</cbc:PriceAmount>
+          <cbc:BaseQuantity>1</cbc:BaseQuantity>
+        </cac:Price>
+      </cac:SubInvoiceLine>
+      <cac:SubInvoiceLine>
+        <cbc:ID>3.6.170.</cbc:ID>
+        <cbc:InvoicedQuantity>112</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">6829.76</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Name>Erdungslasche für Geländer</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">60.98</cbc:PriceAmount>
+          <cbc:BaseQuantity>1</cbc:BaseQuantity>
+        </cac:Price>
+      </cac:SubInvoiceLine>
+      <cac:SubInvoiceLine>
+        <cbc:ID>3.6.190.</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="MTR">286.05</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">3875.98</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Name>Oberfläche mit metallischem Überzug versehen.</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
+          <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+        </cac:Price>
+      </cac:SubInvoiceLine>
+      <cac:SubInvoiceLine>
+        <cbc:ID>3.6.200.</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="MTR">286.05</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">3875.98</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Name>Oberfläche zwischenbeschichten.</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
+          <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+        </cac:Price>
+      </cac:SubInvoiceLine>
+      <cac:SubInvoiceLine>
+        <cbc:ID>3.6.200.</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="MTR">286.05</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">3875.98</cbc:LineExtensionAmount>
+        <cac:Item>
+          <cbc:Name>Oberfläche deckbeschichten, Farbton nach Angaben..</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
+          <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+        </cac:Price>
+      </cac:SubInvoiceLine>      
       <cac:SubInvoiceLine>
         <cbc:ID>3.7.</cbc:ID>     
         <cbc:LineExtensionAmount currencyID="EUR">150109.20</cbc:LineExtensionAmount>
