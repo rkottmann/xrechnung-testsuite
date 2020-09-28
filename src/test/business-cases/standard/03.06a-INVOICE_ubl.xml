@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../oasis/maindoc/UBL-Invoice-2.1.xsd"
+ xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+ xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+ xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+ <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.0</cbc:CustomizationID>
+ <cbc:ID>11500749</cbc:ID>
+ <cbc:IssueDate>2020-06-24</cbc:IssueDate>
+ <cbc:DueDate>2020-07-12</cbc:DueDate>
+ <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+ <cbc:TaxPointDate>2020-06-24</cbc:TaxPointDate>
+ <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+ <cbc:BuyerReference>B1234567890</cbc:BuyerReference>
+ <cac:AdditionalDocumentReference>
+  <cbc:ID>XX-XX237</cbc:ID>
+ </cac:AdditionalDocumentReference>
+ <cac:AccountingSupplierParty>
+  <cac:Party>
+   <cbc:EndpointID schemeID="EM">test-supplier@test.com</cbc:EndpointID>
+   <cac:PostalAddress>
+    <cbc:StreetName>Straße Supplier</cbc:StreetName>
+    <cbc:CityName>Stadt Supplier</cbc:CityName>
+    <cbc:PostalZone>42579</cbc:PostalZone>
+    <cac:Country>
+     <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+    </cac:Country>
+   </cac:PostalAddress>
+   <cac:PartyTaxScheme>
+    <cbc:CompanyID>DE123456789012</cbc:CompanyID>
+    <cac:TaxScheme>
+     <cbc:ID>VAT</cbc:ID>
+    </cac:TaxScheme>
+   </cac:PartyTaxScheme>
+   <cac:PartyLegalEntity>
+    <cbc:RegistrationName>Supplier GmbH</cbc:RegistrationName>
+    <cbc:CompanyID>HRB 12345</cbc:CompanyID>
+    <cbc:CompanyLegalForm>Amtsgericht[XXX],Geschftsfhrer:[YYY],Sitz der Gesellschaft[ZZZ],Aufsichtsratvorsitzender:[ABC]</cbc:CompanyLegalForm>
+   </cac:PartyLegalEntity>
+   <cac:Contact>
+    <cbc:Name>Kontakt Supplier</cbc:Name>
+    <cbc:Telephone>0205658610</cbc:Telephone>
+    <cbc:ElectronicMail>test-supplier-contact@test.com</cbc:ElectronicMail>
+   </cac:Contact>
+  </cac:Party>
+ </cac:AccountingSupplierParty>
+ <cac:AccountingCustomerParty>
+  <cac:Party>
+   <cbc:EndpointID schemeID="EM">test-customer@test.com</cbc:EndpointID>
+   <cac:PartyIdentification>
+    <cbc:ID>00220105</cbc:ID>
+   </cac:PartyIdentification>
+   <cac:PostalAddress>
+    <cbc:StreetName>Straße Customer</cbc:StreetName>
+    <cbc:AdditionalStreetName>Postfach Customer</cbc:AdditionalStreetName>
+    <cbc:CityName>Stadt Customer</cbc:CityName>
+    <cbc:PostalZone>42579</cbc:PostalZone>
+    <cac:Country>
+     <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+    </cac:Country>
+   </cac:PostalAddress>
+   <cac:PartyLegalEntity>
+    <cbc:RegistrationName>Customer</cbc:RegistrationName>
+   </cac:PartyLegalEntity>
+  </cac:Party>
+ </cac:AccountingCustomerParty>
+ <cac:Delivery>
+  <cac:DeliveryLocation>
+   <cbc:ID>0152</cbc:ID>
+  </cac:DeliveryLocation>
+  <cac:DeliveryParty> </cac:DeliveryParty>
+ </cac:Delivery>
+ <cac:PaymentMeans>
+  <cbc:PaymentMeansCode name="DUC">59</cbc:PaymentMeansCode>
+  <cac:PaymentMandate>
+   <cbc:ID>MN12345685</cbc:ID>
+   <cac:PayerFinancialAccount>
+    <cbc:ID>DE16510500150454001206</cbc:ID>
+   </cac:PayerFinancialAccount>
+  </cac:PaymentMandate>
+ </cac:PaymentMeans>
+ <cac:AllowanceCharge>
+  <cbc:ChargeIndicator>true</cbc:ChargeIndicator>
+  <cbc:AllowanceChargeReasonCode>ZZZ</cbc:AllowanceChargeReasonCode>
+  <cbc:AllowanceChargeReason>Mutually definied</cbc:AllowanceChargeReason>
+  <cbc:MultiplierFactorNumeric>1.9</cbc:MultiplierFactorNumeric>
+  <cbc:Amount currencyID="EUR">3.96</cbc:Amount>
+  <cbc:BaseAmount currencyID="EUR">208.49</cbc:BaseAmount>
+  <cac:TaxCategory>
+   <cbc:ID>E</cbc:ID>
+   <cbc:Percent>0.00</cbc:Percent>
+   <cac:TaxScheme>
+    <cbc:ID>VAT</cbc:ID>
+   </cac:TaxScheme>
+  </cac:TaxCategory>
+ </cac:AllowanceCharge>
+ <cac:TaxTotal>
+  <cbc:TaxAmount currencyID="EUR">66.55</cbc:TaxAmount>
+  <cac:TaxSubtotal>
+   <cbc:TaxableAmount currencyID="EUR">350.24</cbc:TaxableAmount>
+   <cbc:TaxAmount currencyID="EUR">66.55</cbc:TaxAmount>
+   <cac:TaxCategory>
+    <cbc:ID>S</cbc:ID>
+    <cbc:Percent>19.00</cbc:Percent>
+    <cac:TaxScheme>
+     <cbc:ID>VAT</cbc:ID>
+    </cac:TaxScheme>
+   </cac:TaxCategory>
+  </cac:TaxSubtotal>
+  <cac:TaxSubtotal>
+   <cbc:TaxableAmount currencyID="EUR">3.96</cbc:TaxableAmount>
+   <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+   <cac:TaxCategory>
+    <cbc:ID>E</cbc:ID>
+    <cbc:Percent>0.00</cbc:Percent>
+    <cbc:TaxExemptionReasonCode>vatex-eu-j</cbc:TaxExemptionReasonCode>
+    <cac:TaxScheme>
+     <cbc:ID>VAT</cbc:ID>
+    </cac:TaxScheme>
+   </cac:TaxCategory>
+  </cac:TaxSubtotal>
+ </cac:TaxTotal>
+ <cac:LegalMonetaryTotal>
+  <cbc:LineExtensionAmount currencyID="EUR">350.24</cbc:LineExtensionAmount>
+  <cbc:TaxExclusiveAmount currencyID="EUR">354.20</cbc:TaxExclusiveAmount>
+  <cbc:TaxInclusiveAmount currencyID="EUR">420.75</cbc:TaxInclusiveAmount>
+  <cbc:ChargeTotalAmount currencyID="EUR">3.96</cbc:ChargeTotalAmount>
+  <cbc:PayableAmount currencyID="EUR">420.75</cbc:PayableAmount>
+ </cac:LegalMonetaryTotal>
+ <cac:InvoiceLine>
+  <cbc:ID>1</cbc:ID>
+  <cbc:InvoicedQuantity unitCode="E48">18</cbc:InvoicedQuantity>
+  <cbc:LineExtensionAmount currencyID="EUR">141.75</cbc:LineExtensionAmount>
+  <cac:Item>
+   <cbc:Name>00-1162</cbc:Name>
+   <cac:SellersItemIdentification>
+    <cbc:ID>00116201</cbc:ID>
+   </cac:SellersItemIdentification>
+   <cac:ClassifiedTaxCategory>
+    <cbc:ID>S</cbc:ID>
+    <cbc:Percent>19.00</cbc:Percent>
+    <cac:TaxScheme>
+     <cbc:ID>VAT</cbc:ID>
+    </cac:TaxScheme>
+   </cac:ClassifiedTaxCategory>
+  </cac:Item>
+  <cac:Price>
+   <cbc:PriceAmount currencyID="EUR">141.75</cbc:PriceAmount>
+   <cbc:BaseQuantity unitCode="E48">18</cbc:BaseQuantity>
+  </cac:Price>
+ </cac:InvoiceLine>
+ <cac:InvoiceLine>
+  <cbc:ID>2</cbc:ID>
+  <cbc:Note>XXX</cbc:Note>
+  <cbc:InvoicedQuantity unitCode="NPT">1</cbc:InvoicedQuantity>
+  <cbc:LineExtensionAmount currencyID="EUR">287.48</cbc:LineExtensionAmount>
+  <cac:DocumentReference>
+   <cbc:ID>MA0300554101/80</cbc:ID>
+  </cac:DocumentReference>
+  <cac:Item>
+   <cbc:Name>XXX</cbc:Name>
+   <cac:SellersItemIdentification>
+    <cbc:ID>MA541 030 01 05/80</cbc:ID>
+   </cac:SellersItemIdentification>
+   <cac:ClassifiedTaxCategory>
+    <cbc:ID>S</cbc:ID>
+    <cbc:Percent>19.00</cbc:Percent>
+    <cac:TaxScheme>
+     <cbc:ID>VAT</cbc:ID>
+    </cac:TaxScheme>
+   </cac:ClassifiedTaxCategory>
+  </cac:Item>
+  <cac:Price>
+   <cbc:PriceAmount currencyID="EUR">287.48</cbc:PriceAmount>
+   <cbc:BaseQuantity unitCode="NPT">1</cbc:BaseQuantity>
+  </cac:Price>
+ </cac:InvoiceLine>
+ <cac:InvoiceLine>
+  <cbc:ID>3</cbc:ID>
+  <cbc:Note>YYY</cbc:Note>
+  <cbc:InvoicedQuantity unitCode="NPT">-1</cbc:InvoicedQuantity>
+  <cbc:LineExtensionAmount currencyID="EUR">-78.99</cbc:LineExtensionAmount>
+  <cac:DocumentReference>
+   <cbc:ID>MA0300554101/70</cbc:ID>
+  </cac:DocumentReference>
+  <cac:Item>
+   <cbc:Name>YYY</cbc:Name>
+   <cac:SellersItemIdentification>
+    <cbc:ID>MA541 030 01 05/70</cbc:ID>
+   </cac:SellersItemIdentification>
+   <cac:ClassifiedTaxCategory>
+    <cbc:ID>S</cbc:ID>
+    <cbc:Percent>19.00</cbc:Percent>
+    <cac:TaxScheme>
+     <cbc:ID>VAT</cbc:ID>
+    </cac:TaxScheme>
+   </cac:ClassifiedTaxCategory>
+  </cac:Item>
+  <cac:Price>
+   <cbc:PriceAmount currencyID="EUR">78.99</cbc:PriceAmount>
+   <cbc:BaseQuantity unitCode="NPT">-1</cbc:BaseQuantity>
+  </cac:Price>
+ </cac:InvoiceLine>
+</Invoice>
