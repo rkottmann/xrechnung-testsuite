@@ -79,14 +79,19 @@
    </cac:PayerFinancialAccount>
   </cac:PaymentMandate>
  </cac:PaymentMeans>
+ <!-- Hier wird die Altteilsteuer abgebildet. Das ist ein work around der noch nciht allgemein akzptiert ist -->
+ <!-- Lösung ist auf CEN Ebene in Diskussion -->
  <cac:AllowanceCharge>
   <cbc:ChargeIndicator>true</cbc:ChargeIndicator>
+  
   <cbc:AllowanceChargeReasonCode>ZZZ</cbc:AllowanceChargeReasonCode>
   <cbc:AllowanceChargeReason>Mutually definied</cbc:AllowanceChargeReason>
   <cbc:MultiplierFactorNumeric>1.9</cbc:MultiplierFactorNumeric>
+  <!-- Der Austauschteilesteuerbetrag -->
   <cbc:Amount currencyID="EUR">3.96</cbc:Amount>
   <cbc:BaseAmount currencyID="EUR">208.49</cbc:BaseAmount>
   <cac:TaxCategory>
+   <!-- E = Exempt from Tax. Keine weitere Mehrwertsteuer (von der Mehrwersteur somit ausgenommen) -->
    <cbc:ID>E</cbc:ID>
    <cbc:Percent>0.00</cbc:Percent>
    <cac:TaxScheme>
