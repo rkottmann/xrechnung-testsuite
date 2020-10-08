@@ -1,15 +1,14 @@
-<ubl:Invoice xmlns:ubl="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
-  xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
-  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<ubl:Invoice xmlns:ubl="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
   <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.0#conformant#urn:xoev-de:kosit:extension:xrechnung_2.0</cbc:CustomizationID>
   <cbc:ID>12345</cbc:ID>
   <cbc:IssueDate>2019-05-15</cbc:IssueDate>
   <cbc:InvoiceTypeCode>877</cbc:InvoiceTypeCode>
-  <cbc:Note>Bereits gezahlte Rechnungen zur Schlussrechnung (insgesamt bereits gezahlter Brutto-Betrag: 1.064.317,34):
-  Zahlung vom 23.01.2020 zur Rg. Nr. 1/10416097; 19,00 % MwSt; Netto-Betrag 5.444,00; MwSt.-Betrag 1.034,36; Brutto-Betrag 6.478,36
-  Zahlung vom 23.06.2020 zur Rg. Nr. 24/9999999; 19,00 % MwSt; Netto-Betrag 788.940,32; MwSt.-Betrag 149.898,66; Brutto-Betrag 938.838,98
-  Zahlung vom 23.06.2020 zur Rg. Nr. 25/9999999; 19,00 % MwSt; Netto-Betrag 100.000,00; MwSt.-Betrag 19.000,00; Brutto-Betrag 119.000,00
-  </cbc:Note>
+  <cbc:Note>Bereits gezahlte Rechnungen zur Schlussrechnung (insgesamt bereits gezahlter
+    Brutto-Betrag: 1.064.317,34): Zahlung vom 23.01.2020 zur Rg. Nr. 1/10416097; 19,00 % MwSt;
+    Netto-Betrag 5.444,00; MwSt.-Betrag 1.034,36; Brutto-Betrag 6.478,36 Zahlung vom 23.06.2020 zur
+    Rg. Nr. 24/9999999; 19,00 % MwSt; Netto-Betrag 788.940,32; MwSt.-Betrag 149.898,66;
+    Brutto-Betrag 938.838,98 Zahlung vom 23.06.2020 zur Rg. Nr. 25/9999999; 19,00 % MwSt;
+    Netto-Betrag 100.000,00; MwSt.-Betrag 19.000,00; Brutto-Betrag 119.000,00 </cbc:Note>
   <cbc:Note>Abrufnummer: XXXX</cbc:Note>
   <cbc:Note>Kettennummer: YYYYY</cbc:Note>
   <cbc:Note>Kostenträger: 01 Leistungen Bund</cbc:Note>
@@ -88,7 +87,8 @@
   <cac:AllowanceCharge>
     <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
     <cbc:AllowanceChargeReasonCode>104</cbc:AllowanceChargeReasonCode>
-    <cbc:AllowanceChargeReason>Standard - Gewährleistungseinbehalt auf Rechnungsbetrag (Leistungssumme abzgl. Bauumlage abzgl. Bauleistungsversicherung)</cbc:AllowanceChargeReason>
+    <cbc:AllowanceChargeReason>Standard - Gewährleistungseinbehalt auf Rechnungsbetrag
+      (Leistungssumme abzgl. Bauumlage abzgl. Bauleistungsversicherung)</cbc:AllowanceChargeReason>
     <cbc:MultiplierFactorNumeric>1.25</cbc:MultiplierFactorNumeric>
     <cbc:Amount currencyID="EUR">255384.19</cbc:Amount>
     <cbc:BaseAmount currencyID="EUR">20430735.11</cbc:BaseAmount>
@@ -103,7 +103,8 @@
   <cac:AllowanceCharge>
     <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
     <cbc:AllowanceChargeReasonCode>104</cbc:AllowanceChargeReasonCode>
-    <cbc:AllowanceChargeReason>Standard - Bauumlage auf die Leistungssumme</cbc:AllowanceChargeReason>
+    <cbc:AllowanceChargeReason>Standard - Bauumlage auf die
+      Leistungssumme</cbc:AllowanceChargeReason>
     <cbc:MultiplierFactorNumeric>0.20</cbc:MultiplierFactorNumeric>
     <cbc:Amount currencyID="EUR">41483.73</cbc:Amount>
     <cbc:BaseAmount currencyID="EUR">20741863.06</cbc:BaseAmount>
@@ -118,13 +119,29 @@
   <cac:AllowanceCharge>
     <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
     <cbc:AllowanceChargeReasonCode>104</cbc:AllowanceChargeReasonCode>
-    <cbc:AllowanceChargeReason>Standard - Bauleistungsversicherung auf die Leistungssumme</cbc:AllowanceChargeReason>
+    <cbc:AllowanceChargeReason>Standard - Bauleistungsversicherung auf die
+      Leistungssumme</cbc:AllowanceChargeReason>
     <cbc:MultiplierFactorNumeric>1.30</cbc:MultiplierFactorNumeric>
     <cbc:Amount currencyID="EUR">269644.22</cbc:Amount>
-    <cbc:BaseAmount currencyID="EUR">20741863.06</cbc:BaseAmount>  
+    <cbc:BaseAmount currencyID="EUR">20741863.06</cbc:BaseAmount>
     <cac:TaxCategory>
       <cbc:ID>E</cbc:ID>
       <cbc:Percent>0</cbc:Percent>
+      <cac:TaxScheme>
+        <cbc:ID>VAT</cbc:ID>
+      </cac:TaxScheme>
+    </cac:TaxCategory>
+  </cac:AllowanceCharge>
+  <cac:AllowanceCharge>
+    <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+    <cbc:AllowanceChargeReasonCode>104</cbc:AllowanceChargeReasonCode>
+    <cbc:AllowanceChargeReason>Nachlass</cbc:AllowanceChargeReason>
+    <cbc:MultiplierFactorNumeric>0.02</cbc:MultiplierFactorNumeric>
+    <cbc:Amount currencyID="EUR">423303.33</cbc:Amount>
+    <cbc:BaseAmount currencyID="EUR">21165166.39</cbc:BaseAmount>
+    <cac:TaxCategory>
+      <cbc:ID>S</cbc:ID>
+      <cbc:Percent>19</cbc:Percent>
       <cac:TaxScheme>
         <cbc:ID>VAT</cbc:ID>
       </cac:TaxScheme>
@@ -143,15 +160,13 @@
         </cac:TaxScheme>
       </cac:TaxCategory>
     </cac:TaxSubtotal>
-  </cac:TaxTotal>
-  <cac:TaxTotal>
-    <cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
     <cac:TaxSubtotal>
       <cbc:TaxableAmount currencyID="EUR">-525028.41</cbc:TaxableAmount>
       <cbc:TaxAmount currencyID="EUR">0</cbc:TaxAmount>
       <cac:TaxCategory>
         <cbc:ID>E</cbc:ID>
         <cbc:Percent>0</cbc:Percent>
+        <cbc:TaxExemptionReason>Ausnahmegrund</cbc:TaxExemptionReason>
         <cac:TaxScheme>
           <cbc:ID>VAT</cbc:ID>
         </cac:TaxScheme>
@@ -159,17 +174,17 @@
     </cac:TaxSubtotal>
   </cac:TaxTotal>
   <cac:LegalMonetaryTotal>
-    <cbc:LineExtensionAmount currencyID="EUR">20741863.06</cbc:LineExtensionAmount>
-    <cbc:TaxExclusiveAmount currencyID="EUR">20175350.86</cbc:TaxExclusiveAmount>
-    <cbc:TaxInclusiveAmount currencyID="EUR">21979788.31</cbc:TaxInclusiveAmount>
-    <cbc:AllowanceTotalAmount currencyID="EUR">566512.14</cbc:AllowanceTotalAmount>
+    <cbc:LineExtensionAmount currencyID="EUR">21165166.39</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="EUR">20175350.92</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="EUR">24108422.99</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="EUR">989815.47</cbc:AllowanceTotalAmount>
     <cbc:PrepaidAmount currencyID="EUR">1064317.34</cbc:PrepaidAmount>
     <cbc:PayableAmount currencyID="EUR">23044105.65</cbc:PayableAmount>
   </cac:LegalMonetaryTotal>
   <cac:InvoiceLine>
     <cbc:ID>1</cbc:ID>
     <cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="EUR">20741863.06</cbc:LineExtensionAmount>
+    <cbc:LineExtensionAmount currencyID="EUR">21165166.39</cbc:LineExtensionAmount>
     <cac:Item>
       <cbc:Name>Leistungssumme</cbc:Name>
       <cac:ClassifiedTaxCategory>
@@ -181,20 +196,23 @@
       </cac:ClassifiedTaxCategory>
     </cac:Item>
     <cac:Price>
-      <cbc:PriceAmount currencyID="EUR">20741863.06</cbc:PriceAmount>
+      <cbc:PriceAmount currencyID="EUR">21165166.39</cbc:PriceAmount>
     </cac:Price>
     <cac:SubInvoiceLine>
       <cbc:ID>3.</cbc:ID>
-      <cbc:LineExtensionAmount currencyID="EUR">19715327.10</cbc:LineExtensionAmount>
+      <cbc:LineExtensionAmount currencyID="EUR">21165166.39</cbc:LineExtensionAmount>
       <cac:Item>
         <cbc:Name>Ortbetonstützwand Los 15/16 bahnrechts, km 5,910..</cbc:Name>
       </cac:Item>
+      <cac:Price>
+        <cbc:PriceAmount currencyID="EUR">20741863.06</cbc:PriceAmount>
+      </cac:Price>
       <cac:SubInvoiceLine>
-        <cbc:ID>3.1.</cbc:ID>     
+        <cbc:ID>3.1.</cbc:ID>
         <cbc:LineExtensionAmount currencyID="EUR">19715327.10</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Baustelleneinrichtung</cbc:Name>
-        </cac:Item>        
+        </cac:Item>
         <cac:SubInvoiceLine>
           <cbc:ID>3.1.10.</cbc:ID>
           <cbc:InvoicedQuantity>210</cbc:InvoicedQuantity>
@@ -207,13 +225,13 @@
             <cbc:BaseQuantity unitCode="C62">1</cbc:BaseQuantity>
           </cac:Price>
         </cac:SubInvoiceLine>
-      </cac:SubInvoiceLine>   
+      </cac:SubInvoiceLine>
       <cac:SubInvoiceLine>
-        <cbc:ID>3.3.</cbc:ID>     
+        <cbc:ID>3.3.</cbc:ID>
         <cbc:LineExtensionAmount currencyID="EUR">42227.17</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Abbruch / Rückbau</cbc:Name>
-        </cac:Item>        
+        </cac:Item>
         <cac:SubInvoiceLine>
           <cbc:ID>3.3.70.</cbc:ID>
           <cbc:InvoicedQuantity unitCode="MTR">1025.5</cbc:InvoicedQuantity>
@@ -238,13 +256,13 @@
             <cbc:BaseQuantity unitCode="MTK">1</cbc:BaseQuantity>
           </cac:Price>
         </cac:SubInvoiceLine>
-      </cac:SubInvoiceLine> 
+      </cac:SubInvoiceLine>
       <cac:SubInvoiceLine>
-        <cbc:ID>3.4.</cbc:ID>     
+        <cbc:ID>3.4.</cbc:ID>
         <cbc:LineExtensionAmount currencyID="EUR">542076.10</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Erdarbeiten</cbc:Name>
-        </cac:Item>        
+        </cac:Item>
         <cac:SubInvoiceLine>
           <cbc:ID>3.4.10.</cbc:ID>
           <cbc:InvoicedQuantity unitCode="MTQ">86.561</cbc:InvoicedQuantity>
@@ -367,11 +385,11 @@
         </cac:SubInvoiceLine>
       </cac:SubInvoiceLine>
       <cac:SubInvoiceLine>
-        <cbc:ID>3.5.</cbc:ID>     
+        <cbc:ID>3.5.</cbc:ID>
         <cbc:LineExtensionAmount currencyID="EUR">217257.09</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Steinkorbverkleidung / Betonwand</cbc:Name>
-        </cac:Item>        
+        </cac:Item>
         <cac:SubInvoiceLine>
           <cbc:ID>3.5.110.</cbc:ID>
           <cbc:InvoicedQuantity unitCode="MTQ">179.949</cbc:InvoicedQuantity>
@@ -422,11 +440,11 @@
         </cac:SubInvoiceLine>
       </cac:SubInvoiceLine>
       <cac:SubInvoiceLine>
-        <cbc:ID>3.6.</cbc:ID>     
+        <cbc:ID>3.6.</cbc:ID>
         <cbc:LineExtensionAmount currencyID="EUR">396839.57</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Bohrpfahlgründung, Stahlbau</cbc:Name>
-        </cac:Item>        
+        </cac:Item>
         <cac:SubInvoiceLine>
           <cbc:ID>3.6.5.</cbc:ID>
           <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
@@ -487,97 +505,97 @@
             <cbc:BaseQuantity unitCode="TNE">1</cbc:BaseQuantity>
           </cac:Price>
         </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.6.110.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="DAY">2.500</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">11477.25</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>*** Bedarfsposition mit GB Stillstandskosten Bohrgerät</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">4590.90</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="DAY">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.6.140.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTR">286.050</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">69770.46</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Geschweißtes Stahlgeländer</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">243.91</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.6.160.</cbc:ID>
+          <cbc:InvoicedQuantity>148</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">5014.24</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Geländer-Verankerung an Kopfbalken herstellen</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">33.88</cbc:PriceAmount>
+            <cbc:BaseQuantity>1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.6.170.</cbc:ID>
+          <cbc:InvoicedQuantity>112</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">6829.76</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Erdungslasche für Geländer</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">60.98</cbc:PriceAmount>
+            <cbc:BaseQuantity>1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.6.190.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTR">286.05</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">3875.98</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Oberfläche mit metallischem Überzug versehen.</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.6.200.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTR">286.05</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">3875.98</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Oberfläche zwischenbeschichten.</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
+        <cac:SubInvoiceLine>
+          <cbc:ID>3.6.210.</cbc:ID>
+          <cbc:InvoicedQuantity unitCode="MTR">286.05</cbc:InvoicedQuantity>
+          <cbc:LineExtensionAmount currencyID="EUR">3875.98</cbc:LineExtensionAmount>
+          <cac:Item>
+            <cbc:Name>Oberfläche deckbeschichten, Farbton nach Angaben..</cbc:Name>
+          </cac:Item>
+          <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
+          </cac:Price>
+        </cac:SubInvoiceLine>
       </cac:SubInvoiceLine>
       <cac:SubInvoiceLine>
-        <cbc:ID>3.6.110.</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="DAY">2.500</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="EUR">11477.25</cbc:LineExtensionAmount>
-        <cac:Item>
-          <cbc:Name>*** Bedarfsposition mit GB Stillstandskosten Bohrgerät</cbc:Name>
-        </cac:Item>
-        <cac:Price>
-          <cbc:PriceAmount currencyID="EUR">4590.90</cbc:PriceAmount>
-          <cbc:BaseQuantity unitCode="DAY">1</cbc:BaseQuantity>
-        </cac:Price>
-      </cac:SubInvoiceLine>
-      <cac:SubInvoiceLine>
-        <cbc:ID>3.6.140.</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="MTR">286.050</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="EUR">69770.46</cbc:LineExtensionAmount>
-        <cac:Item>
-          <cbc:Name>Geschweißtes Stahlgeländer</cbc:Name>
-        </cac:Item>
-        <cac:Price>
-          <cbc:PriceAmount currencyID="EUR">243.91</cbc:PriceAmount>
-          <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
-        </cac:Price>
-      </cac:SubInvoiceLine>
-      <cac:SubInvoiceLine>
-        <cbc:ID>3.6.160.</cbc:ID>
-        <cbc:InvoicedQuantity>148</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="EUR">5014.24</cbc:LineExtensionAmount>
-        <cac:Item>
-          <cbc:Name>Geländer-Verankerung an Kopfbalken herstellen</cbc:Name>
-        </cac:Item>
-        <cac:Price>
-          <cbc:PriceAmount currencyID="EUR">33.88</cbc:PriceAmount>
-          <cbc:BaseQuantity>1</cbc:BaseQuantity>
-        </cac:Price>
-      </cac:SubInvoiceLine>
-      <cac:SubInvoiceLine>
-        <cbc:ID>3.6.170.</cbc:ID>
-        <cbc:InvoicedQuantity>112</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="EUR">6829.76</cbc:LineExtensionAmount>
-        <cac:Item>
-          <cbc:Name>Erdungslasche für Geländer</cbc:Name>
-        </cac:Item>
-        <cac:Price>
-          <cbc:PriceAmount currencyID="EUR">60.98</cbc:PriceAmount>
-          <cbc:BaseQuantity>1</cbc:BaseQuantity>
-        </cac:Price>
-      </cac:SubInvoiceLine>
-      <cac:SubInvoiceLine>
-        <cbc:ID>3.6.190.</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="MTR">286.05</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="EUR">3875.98</cbc:LineExtensionAmount>
-        <cac:Item>
-          <cbc:Name>Oberfläche mit metallischem Überzug versehen.</cbc:Name>
-        </cac:Item>
-        <cac:Price>
-          <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
-          <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
-        </cac:Price>
-      </cac:SubInvoiceLine>
-      <cac:SubInvoiceLine>
-        <cbc:ID>3.6.200.</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="MTR">286.05</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="EUR">3875.98</cbc:LineExtensionAmount>
-        <cac:Item>
-          <cbc:Name>Oberfläche zwischenbeschichten.</cbc:Name>
-        </cac:Item>
-        <cac:Price>
-          <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
-          <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
-        </cac:Price>
-      </cac:SubInvoiceLine>
-      <cac:SubInvoiceLine>
-        <cbc:ID>3.6.200.</cbc:ID>
-        <cbc:InvoicedQuantity unitCode="MTR">286.05</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="EUR">3875.98</cbc:LineExtensionAmount>
-        <cac:Item>
-          <cbc:Name>Oberfläche deckbeschichten, Farbton nach Angaben..</cbc:Name>
-        </cac:Item>
-        <cac:Price>
-          <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
-          <cbc:BaseQuantity unitCode="MTR">1</cbc:BaseQuantity>
-        </cac:Price>
-      </cac:SubInvoiceLine>      
-      <cac:SubInvoiceLine>
-        <cbc:ID>3.7.</cbc:ID>     
+        <cbc:ID>3.7.</cbc:ID>
         <cbc:LineExtensionAmount currencyID="EUR">150109.20</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Entwässerung</cbc:Name>
-        </cac:Item>        
+        </cac:Item>
         <cac:SubInvoiceLine>
           <cbc:ID>3.7.10.</cbc:ID>
           <cbc:InvoicedQuantity unitCode="MTR">709.90</cbc:InvoicedQuantity>
@@ -595,7 +613,8 @@
           <cbc:InvoicedQuantity>18</cbc:InvoicedQuantity>
           <cbc:LineExtensionAmount currencyID="EUR">16447.50</cbc:LineExtensionAmount>
           <cac:Item>
-            <cbc:Name>Reinigungs- und Inspektionsschacht (Durchgangssc.. Tiefenentwässerung hinter Spundwand</cbc:Name>
+            <cbc:Name>Reinigungs- und Inspektionsschacht (Durchgangssc.. Tiefenentwässerung hinter
+              Spundwand</cbc:Name>
           </cac:Item>
           <cac:Price>
             <cbc:PriceAmount currencyID="EUR">913.75</cbc:PriceAmount>
@@ -628,11 +647,11 @@
         </cac:SubInvoiceLine>
       </cac:SubInvoiceLine>
       <cac:SubInvoiceLine>
-        <cbc:ID>3.8.</cbc:ID>     
+        <cbc:ID>3.8.</cbc:ID>
         <cbc:LineExtensionAmount currencyID="EUR">3612.84</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Wege</cbc:Name>
-        </cac:Item>        
+        </cac:Item>
         <cac:SubInvoiceLine>
           <cbc:ID>3.8.20.</cbc:ID>
           <cbc:InvoicedQuantity unitCode="MTR">380.70</cbc:InvoicedQuantity>
@@ -647,11 +666,11 @@
         </cac:SubInvoiceLine>
       </cac:SubInvoiceLine>
       <cac:SubInvoiceLine>
-        <cbc:ID>3.9.</cbc:ID>     
+        <cbc:ID>3.9.</cbc:ID>
         <cbc:LineExtensionAmount currencyID="EUR">36415.06</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Sonstiges</cbc:Name>
-        </cac:Item>        
+        </cac:Item>
         <cac:SubInvoiceLine>
           <cbc:ID>3.9.5.</cbc:ID>
           <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
@@ -774,17 +793,18 @@
         </cac:SubInvoiceLine>
       </cac:SubInvoiceLine>
       <cac:SubInvoiceLine>
-        <cbc:ID>3.10.</cbc:ID>     
+        <cbc:ID>3.10.</cbc:ID>
         <cbc:LineExtensionAmount currencyID="EUR">61302.26</cbc:LineExtensionAmount>
         <cac:Item>
           <cbc:Name>Ausführungsplanung</cbc:Name>
-        </cac:Item>        
+        </cac:Item>
         <cac:SubInvoiceLine>
           <cbc:ID>3.10.10.</cbc:ID>
           <cbc:InvoicedQuantity>1</cbc:InvoicedQuantity>
           <cbc:LineExtensionAmount currencyID="EUR">46518.26</cbc:LineExtensionAmount>
           <cac:Item>
-            <cbc:Name>*** Nachtragsposition zum Nachtrag 1 Ausführungsstatik und Zeichnungen für das Bauwerk</cbc:Name>
+            <cbc:Name>*** Nachtragsposition zum Nachtrag 1 Ausführungsstatik und Zeichnungen für das
+              Bauwerk</cbc:Name>
           </cac:Item>
           <cac:Price>
             <cbc:PriceAmount currencyID="EUR">46518.26</cbc:PriceAmount>
@@ -803,8 +823,7 @@
             <cbc:BaseQuantity>1</cbc:BaseQuantity>
           </cac:Price>
         </cac:SubInvoiceLine>
-      </cac:SubInvoiceLine>  
+      </cac:SubInvoiceLine>
     </cac:SubInvoiceLine>
   </cac:InvoiceLine>
 </ubl:Invoice>
-
