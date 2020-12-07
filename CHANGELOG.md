@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-* Added BT-90 (cac:PartyIdentification) to 03-01a-invoice for CII and UBL
+* Added BT-90 (cac:PartyIdentification) to integrate von BT-29 with BT-90 for 03-01a-invoice for CII and UBL
 
 
 ## 2020-07-31
