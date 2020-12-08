@@ -1,9 +1,9 @@
 # Test Case Overview
 
-This table gives an overview of the content and pupose of positive test instances for the business cases.
+This table gives an overview of the content and purpose of positive test instances for the business cases.
 
 
-| Name | Test purpouse  | Type | Extension? | UBL | CII |
+| Name | Test purpose  | Type | Extension? | UBL | CII |
 | ---- | -------------- | --- | --- | --- | --- |
 | 01.01| Standard invoice with 2 lines, 1 tax category, 1 payment means code 58 | 380 | no | ✅ | ✅ |
 | 01.02| Standard invoice with 1 line, 4 invoice notes, 1 tax category, 1 payment means code 58, payee party, delivery date | 380 | no | ✅ | ✅ |
