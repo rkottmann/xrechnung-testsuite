@@ -10,7 +10,6 @@
   <cbc:DueDate>2019-03-14</cbc:DueDate>
   <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-  <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
   <cbc:BuyerReference>90000000-03083-12</cbc:BuyerReference>
   <cac:InvoicePeriod>
     <cbc:StartDate>2018-05-01</cbc:StartDate>
@@ -29,6 +28,15 @@
   </cac:AdditionalDocumentReference>
   <cac:AccountingSupplierParty>
     <cac:Party>
+	  <cac:PartyIdentification>
+        <cbc:ID schemeID="SEPA">[Bank assigned creditor identifier]</cbc:ID>
+      </cac:PartyIdentification>
+	  <cac:PartyIdentification>
+		<cbc:ID>[Seller identifier 1]</cbc:ID>
+      </cac:PartyIdentification>
+	  <cac:PartyIdentification>
+		<cbc:ID>[Seller identifier 2]</cbc:ID>
+      </cac:PartyIdentification>
       <cac:PartyName>
         <cbc:Name>[Seller name]</cbc:Name>
       </cac:PartyName>

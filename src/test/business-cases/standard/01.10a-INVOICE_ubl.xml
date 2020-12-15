@@ -8,7 +8,6 @@
     <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
     <cbc:Note>#ADU#Wir liefern Ihnen ausschließlich zu unseren allgemeinen Geschäftsbedingungen (Stand Februar 2013). Diese werden Ihnen jederzeit auf Wunsch übersandt. Bei Aufträgen, basierend auf öffentlichen Vergaben, gelten die ggf. vereinbarten abweichenden Liefer- und Zahungsbedingungen des Auftraggebers.</cbc:Note>
     <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-    <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
     <cbc:BuyerReference>04011000-12351-28</cbc:BuyerReference>
     <cac:OrderReference>
         <cbc:ID>Dummywert</cbc:ID>
@@ -104,7 +103,7 @@
         <cbc:Note>#SKONTO#TAGE=7#PROZENT=2.00#
 #SKONTO#TAGE=14#PROZENT=1.00#
 #SKONTO#TAGE=30#PROZENT=0.00#
-        </cbc:Note>
+</cbc:Note>
     </cac:PaymentTerms>
     <cac:TaxTotal>
         <cbc:TaxAmount currencyID="EUR">414.2</cbc:TaxAmount>
